@@ -4,7 +4,7 @@
 
 init:
 	;PORT ayarları
-	LDI		temp,	0xFF     ;0xff değerini register(kayıtçı)r16 ya yükle
+	LDI		temp,	0xFF     ;0xff değerini register(yazmaç)r16 ya yükle
 	OUT		DDRD,	R16      ;port d deki tüm pinler cıkış     
 
 	LDI		temp,	0x00
